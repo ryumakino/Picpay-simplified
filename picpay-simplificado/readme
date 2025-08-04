@@ -1,0 +1,5 @@
+Para rodar o Dockerfile:
+
+./mvnw package
+docker build -t picpay-simplificado .
+docker run -p 8080:8080 picpay-simplificado
